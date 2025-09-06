@@ -15,7 +15,7 @@ int bubble(int arr[],int n){
         
 
     }
-    printf("the sorted array = ");
+    printf("The sorted array = ");
     for(int k=0;k<n;k++){
         printf("%d ",arr[k]);
     }
@@ -38,6 +38,7 @@ int bin(int arr[],int n,int data){
             high=mid-1;
         }
     }
+    return -1;
 }
 int main(){
     int arr[]={99,88,33,44,55,87,69,22};
